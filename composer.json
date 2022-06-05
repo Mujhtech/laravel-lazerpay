@@ -1,0 +1,59 @@
+{
+    "name": "mujhtech/lazerpay",
+    "description": "Laravel package  for sendchamp api",
+    "keywords": [
+        "php",
+        "github",
+        "laravel",
+        "Open Source",
+        "payment",
+        "crypto",
+        "lazerpay",
+        "busd",
+        "usdt",
+        "dai",
+        "mujhtech",
+        "laravel 6",
+        "laravel 7",
+        "laravel 8",
+        "laravel 9"
+    ],
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^7.3",
+        "php": "^7.2|^8.0",
+        "illuminate/support": "~6|~7|~8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "mockery/mockery": "^1.4"
+    },
+    "authors": [
+        {
+            "name": "Mujhtech",
+            "email": "mujeeb.muhideen@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/Helper.php"
+        ],
+        "psr-4": {
+            "Mujhtech\\Lazerpay\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mujhtech\\Lazerpay\\LazerpayServiceProvider"
+            ],
+            "aliases": {
+                "Lazerpay": "Mujhtech\\Lazerpay\\Facades\\Lazerpay"
+            }
+        }
+    }
+}
