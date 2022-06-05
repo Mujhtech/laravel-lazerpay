@@ -1,15 +1,15 @@
-# laravel-lazerpay
+# mujhtech/laravel-lazerpay
 
 > A Laravel Package for lazerpay api
 
 <p align="center">
-    <a href="https://packagist.org/packages/mujhtech/lazerpay"><img src="http://poser.pugx.org/mujhtech/lazerpay/v" alt="Latest Stable Version"></a>
-    <a href="https://packagist.org/packages/mujhtech/lazerpay"><img src="http://poser.pugx.org/mujhtech/lazerpay/v/unstable" alt="Latest Unstable Version"></a>
+    <a href="https://packagist.org/packages/mujhtech/laravel-lazerpay"><img src="http://poser.pugx.org/mujhtech/laravel-lazerpay/v" alt="Latest Stable Version"></a>
+    <a href="https://packagist.org/packages/mujhtech/laravel-lazerpay"><img src="http://poser.pugx.org/mujhtech/laravel-lazerpay/v/unstable" alt="Latest Unstable Version"></a>
     <a href="https://scrutinizer-ci.com/g/Mujhtech/laravel-sendchamp/build-status/master"><img src="https://scrutinizer-ci.com/g/Mujhtech/laravel-sendchamp/badges/build.png?b=master" alt="Build Status"></a>
     <a href="https://scrutinizer-ci.com/g/Mujhtech/laravel-sendchamp/?branch=master"><img src="https://scrutinizer-ci.com/g/Mujhtech/laravel-sendchamp/badges/quality-score.png?b=master" alt="Scrutinizer Code Quality"></a>
     <a href="https://scrutinizer-ci.com/g/Mujhtech/laravel-sendchamp/?branch=master"><img src="https://scrutinizer-ci.com/g/Mujhtech/laravel-sendchamp/badges/coverage.png?b=master" alt="Code Coverage"></a>
-    <a href="https://packagist.org/packages/mujhtech/lazerpay"><img src="http://poser.pugx.org/mujhtech/lazerpay/downloads" alt="Total Downloads"></a>
-    <a href="https://packagist.org/packages/mujhtech/lazerpay"><img src="http://poser.pugx.org/mujhtech/lazerpay/license" alt="License"></a>
+    <a href="https://packagist.org/packages/mujhtech/laravel-lazerpay"><img src="http://poser.pugx.org/mujhtech/laravel-lazerpay/downloads" alt="Total Downloads"></a>
+    <a href="https://packagist.org/packages/mujhtech/laravel-lazerpay"><img src="http://poser.pugx.org/mujhtech/laravel-lazerpay/license" alt="License"></a>
 </p>
 
 ## Installation
@@ -17,13 +17,13 @@
 To get the latest version of Lazerpay, simply require it
 
 ```bash
-composer require mujhtech/lazerpay
+composer require mujhtech/laravel-lazerpay
 ```
 
 Or add the following line to the require block of your `composer.json` file.
 
 ```
-"mujhtech/lazerpay": "1.0.*"
+"mujhtech/laravel-lazerpay": "1.0.*"
 ```
 
 Once Laravel Sendchamp is installed, you need to register the service provider. Open up `config/app.php` and add the following to the `providers` key.
